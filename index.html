@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="texttexttexttext">
     <title>my portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div class="container home-container">
+    <div class="container">
         <header class="container -hamburger-shown">
-            <h1 class="logo">
-                <a href="#"><img src="" alt="logo-img"><title>my portfolio</title></a>
+            <div class="logotype">
+                <h1 class="logo">
+                    <a href="#"><title">My portfolio</title></a>
+                </h1>
                 <span class="author">Minaho Hombu</span>
-            </h1>
+            </div>
             <nav class="navigation">
                 <ul class="navigation_list">
                     <li class="nav_listItem"><a href=""><span>Home</span></a></li>
@@ -22,7 +31,7 @@
                     <li class="nav_listItem"><a href=""><span>--Life Work</span></a></li>
                     <li class="nav_listItem"><a href=""><span>Work</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--Team Project</span></a></li>
-                    <li class="nav_listItem"><a href=""><span>--My First Work</span></a></li>
+                    <li class="nav_listItem"><a href=""><span>--My Project</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--Contact</span></a></li>
                 </ul>
             </nav>
@@ -30,11 +39,11 @@
         <main>
             <div class="container firstView-container">
                 <div class="copy">
-                    <p class="copy_inner">
-                        <span class="copy_words">一ミリの可能性を信じ、未来をひらく。</span>
-                    </p>
+                    <h1 class="copy_inner">
+                        <span class="copy_words">1ミリの可能性を信じ、未来をひらく。</span>
+                    </h1>
                 </div>
-                <div class="mainvisual"><img src="" alt=""></div>
+                <div class="mainvisual"><img src="img/visual-area@2x.png" alt=""></div>
             </div>
             <section id="home_vision" class="container home-container">
                 <div class="head"><p>ビジョンとミッション</p></div>
@@ -47,8 +56,8 @@
                         <p>"何事もまず肯定"が私のセオリーです。<br>自分と違う考えを持った人の意見は、必ず自分の視野を広げ、それは周りにも影響を与えます。<br>好奇心旺盛な私は、その可能性をいつも信じて取り入れます。<br>そして、必ず自分の意見を持ちます。<br>先に他者の意見を取り入れることで、より広い視野を持って、より多くの人と話せるはず。</p>
                         <p>個々の魅力を引き出し、輪が広がり、それを生かして課題を解決していくことが私のミッションステートメントです。</p>
                     </div>
-                    <div class="button">
-                        <button type="button"><a href="#">これまでとこれから</a></button>
+                    <div class="btn">
+                        <button type="button"><a href="#">これまでとこれから→</a></button>
                     </div>
                 </div>
             </section>
@@ -57,22 +66,75 @@
                 <div class="main">
                     <div class="sec_title"><h2>Profile</h2></div>
                     <div class="content">
-                        <div class="wrap1_box"><img src="#" alt="face"></div>
-                        <div class="wrap1_box">
-                            <dl class="Profile">
-                                <dt>ニックネームの由来</dt><dd>"ぽーっ"としてたから</dd>
-                                <dt>hobby</dt><dd>寝る,温泉,農業手伝い,Youtube大学</dd>
-                                <dt>favorite</dt><dd>さだまさし, Bruno Mars etc.</dd>
-                                <dt>respect</dt><dd>大谷翔平,高梨沙良,Audery Hepburn</dd>
-                                <dt>Interest</dt><dd>IT,Laravel,DX,グッズ制作,ChatGPT</dd>
-                                <dt>Skill</dt><dd>HTML,CSS,JavaScript,PHP,Laravel</dd>
-                                <dt>Tool</dt><dd>Git-Hub,Figma,illustrator</dd>
-                            </dl>
+                        <div class="flex_body">
+                            <div class="wrap1_box"><img src="img/avator-area@2x.png" alt="avator"></div>
+                            <div class="wrap1_box img_box">
+                                <div class="profile">
+                                    <dl>
+                                        <dt>ニックネームの由来</dt><dd>"ぽーっ"としてたから</dd>
+                                        <dt>hobby</dt><dd>寝る,温泉,農業手伝い,Youtube大学</dd>
+                                        <dt>favorite</dt><dd>さだまさし, Bruno Mars etc.</dd>
+                                        <dt>respect</dt><dd>大谷翔平,高梨沙良,Audery Hepburn</dd>
+                                        <dt>Interest</dt><dd>IT,Laravel,DX,グッズ制作,ChatGPT</dd>
+                                        <dt>Skill</dt><dd>HTML,CSS,JavaScript,PHP,Laravel</dd>
+                                        <dt>Tool</dt><dd>Git-Hub,Figma,illustrator</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex_body">
+                            <div class="wrap1_box border_box">
+                                <a href="#">
+                                    <h4 class="heading">My History</h4>
+                                    <span class="material-symbols-outlined">
+                                        open_in_new
+                                        </span>
+                                    <div class="summary">
+                                        <p>農家育ち。末っ子。<br>宮崎の太陽の下でのびのび育ってきました。</p>
+                                        <p>今でも時には大地に触れ、自然界に生きていることを実感します。<br>泥臭く働いて、お金を稼ぐことの大変さと楽しさを味わえることが私の特権です。</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="wrap1_box border_box">
+                                <a href="#">
+                                    <h4 class="heading">Life Work</h4>
+                                    <span class="material-symbols-outlined">
+                                        open_in_new
+                                        </span>
+                                    <div class="summary">
+                                        <p>アーティスト活動11年目。<br>4人組ガールズロックバンド(結構ヘヴィ)のギターボーカルを担当しています。</p>
+                                        <p>年に20-30本ペースで主に県外、日本中を回り、ステージに立ち続けています。<br>エンタメの世界で、誰かを楽しませ続けることも私が人生を通して取り組むプロジェクトです。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="social_box">
+                            <ul>
+                                <li>facebook</li>
+                                <li>Instagram</li>
+                                <li>X</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="home_work" class="container home-container">
+                <div class="head"><p>半年間の取り組み</p></div>
+                <div class="main">
+                    <div class="sec_title">
+                        <h2>Work</h2>
+                    </div>
+                    <div class="content">
+                        <h3>好奇心のまま、IT業界に飛び込み！</h3>
+                        <p>現在の私の最大の興味がITで、その無限の可能性に惹かれています。<br>ライブビジネススクールで基礎的な知識とセキュリティなどを学びました。<br>独学でもいくつかチャレンジをしてきました。<br>また、多くの仲間と出会い、切磋琢磨しながら生み出した作品がこちらです。</p>
+                    </div>    
+                    <div class="post">
+                        <div class="wrap1_box hero">
+                            <img src="img/jmiyazaki-area@2x.png" alt="jmiyazaki-top">
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
             </section>
         </main>
         <footer class="footer">

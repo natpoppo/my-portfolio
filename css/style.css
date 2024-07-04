@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* all=================================== */
+:root {
+    main-color: var(--#616051)
+}
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #333;
+    font-size: 16px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.shippori-mincho-regular {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.btn button {
+    width: 400px;
+    background: #333;
+    color: #fff;
+    border-radius: 20px;
+    padding: .25em;
+}
+.btn button:hover {
+    background: #c7c46f;
+    border-color: #c7c46f;
+}
+/* ===================================== */
+/* container */
+.container {
+    width: 1240px;
+}
+.firstView-container {
+    /* padding: 2em auto 2em auto; */
+}
+.home-container {
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
+/* ===================================== */
+/* header */
+.logotype {
+    display: flex;
+}
+.logo {
+    color: #616051;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 200;
+}
+.logo:hover {
+    color: #c7c46f;
+}
+.author {
+    padding: 1rem;
+}
+/* nav */
+.navigation {
+    /* text-align: right; */
+    /* padding: 1rem; */
+    font-family: "Shippori Mincho", serif;
+    position: absolute;
+    top: 2em;
+    right: 1em;
+}
+.nav_listItem:hover {
+    background: #c7c46f;
+    color: #fff;
+}
+/* ===================================== */
+/* firstView */
+.copy {
+    display: block;
+    height: 250px;
+}
+.copy_inner {
+    font-size: 2.5rem;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 200;
+    /* width: 500px; */
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding: 24px;
+}
+/* ==================================== */
+/* section == head */
+.head {
+    width: 100px;
+    /* background-color: antiquewhite; */
+    writing-mode: vertical-rl;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 2em calc((100px - 1em) / 2);
+}
+/* section == main */
+.main {
+    margin: 80px 0 60px 0;
+}
+.sec_title {
+    font-size: 2rem;
+    color: #616051;
+    /* font-family: "Shippori Mincho", serif; */
+    font-weight: 100;
+}
+.content {
+    padding: 2em;
+    line-height: 2;
+}
+.content h3 {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 100;
+    padding: 1em;
+}
+.flex_body {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 40px;
+}
+/* ======================================== */
+/* profile */
+.wrap1_box {
+    width: 500px;
+}
+.profile dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.border_box {
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.border_box:hover {
+    background: #c7c46f;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1.5px 4px;;
+}
+.heading {
+    font-size: 1.25em;
+    padding: 1em 1em 0 1em;
+}
+.summary {
+    padding: 2em;
+    font-size: .85em;
+}
