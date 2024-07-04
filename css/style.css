@@ -122,8 +122,8 @@ a {
 }
 .content h3 {
     font-family: "Shippori Mincho", serif;
-    font-weight: 100;
-    padding: 1em;
+    font-weight: 200;
+    padding: 1em 1em 1em 0;
 }
 .flex_body {
     display: flex;
@@ -135,10 +135,20 @@ a {
 .wrap1_box {
     width: 500px;
 }
+.circle img {
+    border-radius: 50%;
+}
 .profile dl {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding: 1em;
+}
+.profile dt {
+    width: 30%;
+}
+.profile dd {
+    width: 70%;
 }
 .border_box {
     border: 1px solid #000;
@@ -156,4 +166,30 @@ a {
 .summary {
     padding: 2em;
     font-size: .85em;
+}
+/* ==================================== */
+/* work */
+.post {
+    padding: 2em;
+    padding-bottom: 2em;
+}
+.hero img {
+    border-radius: 20px;
+}
+.summary dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+}
+.summary dt {
+    width: 30%;
+}
+.summary dd {
+    width: 70%;
+}
+.point {
+    padding: 1em;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
