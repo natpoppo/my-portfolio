@@ -115,6 +115,10 @@ a {
     margin: 80px 0 60px 0;
     padding: 1em;
 }
+.sub {
+    margin: 0;
+    padding: 1em;
+}
 .sec_title {
     font-size: 2rem;
     color: #616051;
@@ -177,7 +181,7 @@ a {
 /* work */
 .post {
     padding: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 6em;
 }
 .hero img {
     border-radius: 20px;
@@ -213,6 +217,61 @@ a {
 .footer {
     background: #333;
 }
+/* ================================== */
+/* ================================== */
+/* mission */
+.list {
+    list-style-type: square;
+    padding: 1em;
+}
+.balloon5 {
+    width: 100%;
+    margin: 1.5em 0;
+    overflow: hidden;
+  }
+  .balloon5 .faceicon {
+    float: left;
+    margin-right: -90px;
+    width: 80px;
+  }
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    background: #c7c46f;
+    border-radius: 50%;
+  }
+  .balloon5 .chatting {
+    width: 100%;
+  }
+  .says {
+    display: inline-block;
+    position: relative; 
+    margin: 5px 0 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+    color: #000;
+    background: #c7c46f;
+  }
+  .says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px; 
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid #c7c46f;
+  }
+  .says p {
+    margin: 0;
+    padding: 0;
+  }
+  /* ================================ */
+/* mission-band */
+.activity {
+    width: 300px;
+    display: flex;
+}
+
 /* ================================== */
 /* ================================== */
 /* contact page */

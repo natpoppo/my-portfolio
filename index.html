@@ -18,18 +18,18 @@
         <header class="container -hamburger-shown">
             <div class="logotype">
                 <h1 class="logo">
-                    <a href="#"><title">My portfolio</title></a>
+                    <a href="index.html"><title">My portfolio</title></a>
                 </h1>
                 <span class="author">Minaho Hombu</span>
             </div>
             <nav class="navigation">
                 <ul class="navigation_list">
-                    <li class="nav_listItem"><a href=""><span>Home</span></a></li>
-                    <li class="nav_listItem"><a href=""><span>Vision</span></a></li>
-                    <li class="nav_listItem"><a href=""><span>Profile</span></a></li>
+                    <li class="nav_listItem"><a href="index.html"><span>Home</span></a></li>
+                    <li class="nav_listItem"><a href="mission.html"><span>Mission</span></a></li>
+                    <li class="nav_listItem"><a href="#home_profile"><span>Profile</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--My History</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--Life Work</span></a></li>
-                    <li class="nav_listItem"><a href=""><span>Work</span></a></li>
+                    <li class="nav_listItem"><a href="#home_work"><span>Work</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--Team Project</span></a></li>
                     <li class="nav_listItem"><a href=""><span>--My Project</span></a></li>
                     <li class="nav_listItem"><a href="contact.html"><span>--Contact</span></a></li>
@@ -57,7 +57,7 @@
                         <p>個々の魅力を引き出し、輪が広がり、それを生かして課題を解決していくことが私のミッションステートメントです。</p>
                     </div>
                     <div class="btn">
-                        <button type="button"><a href="#">これまでとこれから→</a></button>
+                        <button type="button"><a href="mission.html">これまでとこれから→</a></button>
                     </div>
                 </div>
             </section>
@@ -188,15 +188,17 @@
             </section>
             <section id="home_contact" class="container home-container contact">
                 <div class="head"><p>お問い合わせ</p></div>
-                <div class="main">
+                <div class="sub">
                         <form action="#" class="common-form">
                             <div class="flex_body">
                                 <div class="wrap1_box">
-                                    <p><label for="name">Name(必須)<input type="text" name="name" required></label></p><br>
-                                    <p><label for="mail">Mail(必須)<input type="email" name="mail" required></label></p><br>
+                                    <p><label for="name">Name(必須)<br><input type="text" name="name" required></label></p><br>
+                                    <p><label for="mail">Mail(必須)<br><input type="email" name="mail" required></label></p><br>
                                 </div>
-                                <p><label for="content">Content<textarea name="comment" id=""></textarea></label></p>
-                                <p><button type="submit" class="btn">送信</button></p>
+                                <div class="wrap1_box">
+                                    <p><label for="content">Comment</label><br><textarea name="comment" id=""></textarea></p>
+                                    <p><button type="submit" class="btn">送信</button></p>
+                                </div>
                             </div>
                         </form>
                 </div>
