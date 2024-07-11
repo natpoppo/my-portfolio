@@ -240,14 +240,15 @@ a {
     display: flex;
 }
 .footer_head {
-    width: 200px;
+    width: 25%;
     padding: 2em calc((100px - 1em) / 2);
 }
 .footer_body {
     display: flex;
+    width: calc(100% - 200px);
 }
 .block {
-    width: 200px;
+    width: 25%;
     padding: 2em;
 }
 footer .logo {
@@ -390,4 +391,22 @@ li.list a:hover {
 textarea {
     width: 400px;
     overflow-y: scroll;
+}
+
+
+/* =========== */
+/* responsive */
+/* =========== */
+/* index */
+@media screen and (max-width: 480px)　{
+
+    img {
+        width: 100%;
+    }
+    .flex_body {
+        flex-direction: column;
+    }
+    .profile {
+        flex-direction: column;
+    }
 }
