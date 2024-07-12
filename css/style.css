@@ -343,7 +343,7 @@ li.list a:hover {
         color: #fff;
     }
     img {
-        max-width: 820px;
+        width: 80%;
     }
     ul li {
         list-style-type: circle;
