@@ -470,21 +470,17 @@ textarea {
 
 @media screen and (max-width: 480px) {
     .copy_inner {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
-
     .home-container {
-        padding: 0.5rem;
+        padding: 0.5em;
     }
-
     .content h3 {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
-
     .content p, .content ul li.list p {
         font-size: 1em;
     }
-
     .btn {
         text-align: center;
     }
