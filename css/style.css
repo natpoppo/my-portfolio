@@ -186,7 +186,7 @@ a {
     justify-content: center;
 }
 .social_box ul li {
-    padding: 2em;
+    padding: 10%;
 }
 .social_box ul li a:hover {
     color: #c7c46f;
@@ -469,6 +469,10 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0 0.5em;
+    }
     .copy_inner {
         font-size: 1.2em;
     }
@@ -483,5 +487,11 @@ textarea {
     }
     .btn {
         text-align: center;
+    }
+    .head {
+        width: 15px;
+        writing-mode: vertical-rl;
+        border-right: 1px solid #000;
+        padding: 1em calc((15px - 1em) / 2);
     }
 }
